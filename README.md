@@ -19,10 +19,7 @@ The Wine dataset contains 13 distinctive features describing the chemical proper
 belong to one of three different classes, 1, 2, and 3 which refer to the three different types of grapes grown in the same 
 region in Italy but derived from different wine cultivars. 
 
-## Apply Feature Selection methods
-
-
-## Build Logistic Regression models
+## Apply Feature Selection and Build Logistic Regression models
 
 
 ## Feature Importance with Random Forest
