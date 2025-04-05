@@ -3,8 +3,7 @@ Data science project example using feature selection methods for building a clas
 
 
 ## Overview
-In this project I built classification models for predicting wine classes applying various methods of feature selection for dimensionality reduction.
-I used filter and wrapper methods to select a subset of the original features. I applied L1 and L2 regularizations as penalties against model complexity. Another approach was using a random forest and measuring the feature importance.
+In this project I built classification models for predicting wine classes applying various methods of feature selection. Dimensionality reduction via feature selection allows reducing the complexity of the model and avoiding overfitting. Via feature selection we select a subset of the original features, or we can apply regularization techniques.
 
 
 ## Resources Used
@@ -20,6 +19,8 @@ belong to one of three different classes, 1, 2, and 3 which refer to the three d
 region in Italy but derived from different wine cultivars. 
 
 ## Feature Selection and Building Logistic Regression models
+I used filter and wrapper methods to select a subset of the original features which are good predictors of the target. I also applied L1 and L2 regularizations as penalties against model complexity. For each method applied, I built  and evaluated a logistic regression model.
+Another approach that I used for selecting relevant features was using a random forest model and measuring the feature importance.
 
 
 ## Feature Importance with Random Forest
