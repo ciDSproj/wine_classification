@@ -1,5 +1,5 @@
 # Wine Classification
-Data science project example using feature selection methods for building a classification model.
+Data science project example using feature selection methods and building classification models.
 
 
 ## Overview
