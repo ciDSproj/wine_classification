@@ -26,9 +26,25 @@ Below are some plots showing the top features selected by different techniques.
 
 
 
+![filter method](ml3_corr_feature.png)
+<br/>
+
+
+
+![wrapper method](ml3_sequential_feature.png)
+<br/>
+
 
 
 ## Feature Importance with Random Forest
 Another approach that I used for selecting relevant features was using a random forest model and measuring the feature importance. 
 
 The plot shows the relative importance values of the features in the wine dataset determined after fitting a random forest classifier.
+
+
+![filter method](ml3_feature_import.png)
+<br/>
+
+
+
+
