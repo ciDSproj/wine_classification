@@ -19,10 +19,14 @@ belong to one of three different classes, 1, 2, and 3 which refer to the three d
 region in Italy but derived from different wine cultivars. 
 
 ## Feature Selection and Building Logistic Regression models
-- I used filter and wrapper methods to select a subset of the original features which are good predictors of the target.
-- I also applied L1 and L2 regularizations as penalties against model complexity.
-- For each method applied, I built and evaluated a logistic regression model. For each model it was determined the training and test accuracy, the intercept, and coefficients.
-- Another approach that I used for selecting relevant features was using a random forest model and measuring the feature importance.
+I used filter and wrapper methods to select a subset of the original features which are good predictors of the target. I also applied L1 and L2 regularizations as penalties against model complexity.
+For each method applied, I built and evaluated a logistic regression model. For each model it was determined the training and test accuracy, the intercept, and coefficients.
+Below are some showing the top features selected by different techniques.
+
+
+
 
 
 ## Feature Importance with Random Forest
+Another approach that I used for selecting relevant features was using a random forest model and measuring the feature importance. In sklearn we can access the feature importance values after fitting a random forest classifier.
+The plot shows the relative importance of the features in the wine dataset.
