@@ -47,4 +47,4 @@ The plot shows the relative importance values of the features in the wine datase
 
 
 
-
+We observe that two of the top-ranked features in the plot are also in the 5-features subset selection from correlation statistics and forward selection (Proline and Flavanoids).
