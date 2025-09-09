@@ -1,4 +1,4 @@
-# Wine Classification
+# Feature Selection for Wine Classification
 Data science project example using feature selection methods and building classification models.
 
 
